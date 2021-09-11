@@ -22,7 +22,7 @@ module.exports = {
   pressure: 'pressure',
   power: 'power',
   smoke: 'smoke',
-  switch_state: 'switch_sensor',
+  switch_state: 'switch',
   temperature: 'temperature',
   voltage: 'voltage',
   water_leak: 'water',
