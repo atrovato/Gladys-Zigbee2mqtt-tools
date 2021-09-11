@@ -9,7 +9,8 @@ See <a href="./utils/featureMap.js">Feature Map</a> file to complete compatibili
 ## Run
 
 ```
-node index.js
+./run.sh
 ```
 
-Generated files will be in `./generated` folder.
+1. Upgrade zigbee2mqtt depdency to last version.
+2. Generated files will be in `./generated` folder.

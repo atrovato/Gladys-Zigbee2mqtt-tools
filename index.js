@@ -27,6 +27,5 @@ writeFiles(__dirname, gladysDevices);
 
 const unmapped = Array.from(unmappedFeatures).sort();
 if (unmapped.length > 0) {
-  console.warn('-----------------------------------');
   console.warn(unmapped.length, 'unmapped features', unmapped);
 }
