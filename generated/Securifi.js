@@ -6,7 +6,7 @@ const { features } = require('../utils/features');
 const Securifi = {
   brand: 'Securifi',
   models: {
-    B01M7Y8BP9: [features.button],
+    B01M7Y8BP9: [features.switch_sensor],
     'PP-WHT-US': [features.current, features.power, features.switch, features.voltage],
   },
 };

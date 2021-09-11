@@ -9,7 +9,7 @@ const JXUAN = {
     DSZ01: [features.door],
     PRZ01: [features.motion],
     SPZ01: [features.power, features.switch],
-    WSZ01: [features.button],
+    WSZ01: [features.switch_sensor],
   },
 };
 

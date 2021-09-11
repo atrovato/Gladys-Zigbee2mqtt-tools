@@ -7,7 +7,7 @@ const EWeLink = {
   brand: 'eWeLink',
   models: {
     RHK06: [features.door, features.voltage],
-    RHK07: [features.button],
+    RHK07: [features.switch_sensor],
     RHK08: [features.humidity, features.temperature, features.voltage],
     RHK09: [features.motion],
     'SA-003-Zigbee': [features.switch],

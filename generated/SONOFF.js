@@ -8,7 +8,7 @@ const SONOFF = {
   models: {
     BASICZBR3: [features.switch],
     S31ZB: [features.switch],
-    'SNZB-01': [features.button],
+    'SNZB-01': [features.switch_sensor],
     'SNZB-02': [features.humidity, features.temperature, features.voltage],
     'SNZB-03': [features.motion],
     'SNZB-04': [features.door, features.voltage],

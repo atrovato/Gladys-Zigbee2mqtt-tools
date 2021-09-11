@@ -15,7 +15,7 @@ const Feibit = {
     SLS301ZB_2: [features.switch],
     SLS301ZB_3: [features.switch],
     SSA01ZB: [features.smoke],
-    SSS401ZB: [features.button, features.switch],
+    SSS401ZB: [features.switch, features.switch_sensor],
     STH01ZB: [features.humidity, features.temperature],
     SWA01ZB: [features.water],
     'TZSW22FW-L4': [features.switch],

@@ -7,7 +7,7 @@ const Qmotion = {
   brand: 'Qmotion',
   models: {
     HDM40PV620: [features.door],
-    'QZR-ZIG2400': [features.button],
+    'QZR-ZIG2400': [features.switch_sensor],
   },
 };
 

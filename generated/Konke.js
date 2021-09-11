@@ -9,7 +9,7 @@ const Konke = {
     '2AJZ4KPBS': [features.motion],
     '2AJZ4KPDR': [features.door],
     '2AJZ4KPFT': [features.humidity, features.temperature],
-    '2AJZ4KPKEY': [features.button],
+    '2AJZ4KPKEY': [features.switch_sensor],
     LH07321: [features.water],
     'TW-S1': [features.smoke],
   },

@@ -6,7 +6,7 @@ const { features } = require('../utils/features');
 const Technicolor = {
   brand: 'Technicolor',
   models: {
-    'XHK1-TC': [features.button, features.door, features.motion, features.temperature, features.voltage],
+    'XHK1-TC': [features.door, features.motion, features.switch_sensor, features.temperature, features.voltage],
   },
 };
 

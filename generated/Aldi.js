@@ -6,7 +6,7 @@ const { features } = require('../utils/features');
 const Aldi = {
   brand: 'Aldi',
   models: {
-    '141L100RC': [features.button],
+    '141L100RC': [features.switch_sensor],
     'C422AC11D41H140.0W': [features.brightness, features.color, features.color_temperature, features.light],
     'C422AC14D41H140.0W': [features.brightness, features.color, features.color_temperature, features.light],
     'F122SB62H22A4.5W': [features.brightness, features.color_temperature, features.light],

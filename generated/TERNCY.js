@@ -7,9 +7,9 @@ const TERNCY = {
   brand: 'TERNCY',
   models: {
     'TERNCY-DC01': [features.door, features.temperature],
-    'TERNCY-LS01': [features.button, features.switch],
-    'TERNCY-PP01': [features.button, features.illuminance, features.motion, features.temperature],
-    'TERNCY-SD01': [features.button],
+    'TERNCY-LS01': [features.switch, features.switch_sensor],
+    'TERNCY-PP01': [features.illuminance, features.motion, features.switch_sensor, features.temperature],
+    'TERNCY-SD01': [features.switch_sensor],
   },
 };
 

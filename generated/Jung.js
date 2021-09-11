@@ -6,10 +6,10 @@ const { features } = require('../utils/features');
 const Jung = {
   brand: 'Jung',
   models: {
-    ZLLA5004M: [features.button],
-    ZLLCD5004M: [features.button],
-    ZLLHS4: [features.button],
-    ZLLLS5004M: [features.button],
+    ZLLA5004M: [features.switch_sensor],
+    ZLLCD5004M: [features.switch_sensor],
+    ZLLHS4: [features.switch_sensor],
+    ZLLLS5004M: [features.switch_sensor],
   },
 };
 

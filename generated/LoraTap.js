@@ -8,7 +8,7 @@ const LoraTap = {
   models: {
     RR400ZB: [features.switch],
     SC400: [features.door],
-    SS600ZB: [features.button],
+    SS600ZB: [features.switch_sensor],
   },
 };
 

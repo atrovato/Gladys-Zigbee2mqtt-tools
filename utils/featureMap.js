@@ -1,5 +1,5 @@
 module.exports = {
-  action: 'button',
+  action: 'switch_sensor',
   // battery: 'battery',
   // battery_state: 'battery',
   brightness: 'brightness',

@@ -6,7 +6,7 @@ const { features } = require('../utils/features');
 const Wally = {
   brand: 'Wally',
   models: {
-    'U02I007C.01': [features.button, features.door, features.humidity, features.temperature, features.water],
+    'U02I007C.01': [features.door, features.humidity, features.switch_sensor, features.temperature, features.water],
   },
 };
 

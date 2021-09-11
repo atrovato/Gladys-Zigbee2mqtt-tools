@@ -6,7 +6,7 @@ const { features } = require('../utils/features');
 const Haozee = {
   brand: 'Haozee',
   models: {
-    'ESW-OZAA-EU': [features.button],
+    'ESW-OZAA-EU': [features.switch_sensor],
   },
 };
 

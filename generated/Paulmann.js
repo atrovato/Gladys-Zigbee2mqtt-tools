@@ -10,7 +10,7 @@ const Paulmann = {
     '371000002': [features.brightness, features.color, features.color_temperature, features.light],
     '500.47': [features.brightness, features.color, features.color_temperature, features.light],
     '500.48': [features.brightness, features.light],
-    '500.67': [features.button],
+    '500.67': [features.switch_sensor],
     '50043': [features.switch],
     '50044/50045': [features.brightness, features.light],
     '50049/500.63': [features.brightness, features.color, features.color_temperature, features.light],

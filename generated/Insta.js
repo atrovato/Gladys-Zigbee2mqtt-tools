@@ -7,7 +7,7 @@ const Insta = {
   brand: 'Insta',
   models: {
     '57008000': [features.door],
-    InstaRemote: [features.button],
+    InstaRemote: [features.switch_sensor],
   },
 };
 

@@ -13,7 +13,7 @@ const CRSmartHome = {
     TS0204: [features.smoke],
     TS0205: [features.smoke],
     TS0207: [features.water],
-    TS0218: [features.button],
+    TS0218: [features.switch_sensor],
   },
 };
 

@@ -6,7 +6,7 @@ const { features } = require('../utils/features');
 const JAVIS = {
   brand: 'JAVIS',
   models: {
-    'JS-SLK2-ZB': [features.button],
+    'JS-SLK2-ZB': [features.switch_sensor],
   },
 };
 

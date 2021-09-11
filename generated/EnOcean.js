@@ -6,9 +6,9 @@ const { features } = require('../utils/features');
 const EnOcean = {
   brand: 'EnOcean',
   models: {
-    'PTM 215Z': [features.button],
-    'PTM 215ZE': [features.button],
-    'PTM 216Z': [features.button],
+    'PTM 215Z': [features.switch_sensor],
+    'PTM 215ZE': [features.switch_sensor],
+    'PTM 216Z': [features.switch_sensor],
   },
 };
 

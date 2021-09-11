@@ -6,7 +6,7 @@ const { features } = require('../utils/features');
 const EasyAccess = {
   brand: 'EasyAccess',
   models: {
-    'EasyCode903G2.1': [features.button, features.door],
+    'EasyCode903G2.1': [features.door, features.switch_sensor],
   },
 };
 

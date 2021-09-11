@@ -6,8 +6,8 @@ const { features } = require('../utils/features');
 const Lutron = {
   brand: 'Lutron',
   models: {
-    LZL4BWHL01: [features.button],
-    'Z3-1BRL': [features.brightness, features.button],
+    LZL4BWHL01: [features.switch_sensor],
+    'Z3-1BRL': [features.brightness, features.switch_sensor],
   },
 };
 

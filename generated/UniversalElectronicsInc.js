@@ -6,7 +6,7 @@ const { features } = require('../utils/features');
 const UniversalElectronicsInc = {
   brand: 'Universal Electronics Inc',
   models: {
-    'XHK1-UE': [features.button, features.door, features.motion, features.temperature, features.voltage],
+    'XHK1-UE': [features.door, features.motion, features.switch_sensor, features.temperature, features.voltage],
     'XHS2-UE': [features.door, features.temperature],
   },
 };

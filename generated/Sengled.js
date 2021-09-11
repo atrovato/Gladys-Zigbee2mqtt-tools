@@ -21,7 +21,7 @@ const Sengled = {
     'E1C-NB6': [features.switch],
     'E1C-NB7': [features.energy, features.power, features.switch],
     'E1D-G73WNA': [features.door],
-    'E1E-G7F': [features.button],
+    'E1E-G7F': [features.switch_sensor],
     'E1F-N5E': [features.brightness, features.color, features.color_temperature, features.light],
     'E1G-G8E': [features.brightness, features.color, features.color_temperature, features.light],
     'E21-N13A': [features.brightness, features.light],

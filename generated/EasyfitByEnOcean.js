@@ -6,7 +6,7 @@ const { features } = require('../utils/features');
 const EasyfitByEnOcean = {
   brand: 'Easyfit by EnOcean',
   models: {
-    EWSxZ: [features.button],
+    EWSxZ: [features.switch_sensor],
   },
 };
 

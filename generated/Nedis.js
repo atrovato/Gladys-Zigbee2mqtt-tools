@@ -6,7 +6,7 @@ const { features } = require('../utils/features');
 const Nedis = {
   brand: 'Nedis',
   models: {
-    ZBRC10WT: [features.button],
+    ZBRC10WT: [features.switch_sensor],
   },
 };
 

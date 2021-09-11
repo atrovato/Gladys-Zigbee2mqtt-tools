@@ -6,8 +6,8 @@ const { features } = require('../utils/features');
 const Gira = {
   brand: 'Gira',
   models: {
-    '2430-100': [features.button],
-    '2435-10': [features.button],
+    '2430-100': [features.switch_sensor],
+    '2435-10': [features.switch_sensor],
   },
 };
 

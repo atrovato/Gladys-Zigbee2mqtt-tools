@@ -8,8 +8,8 @@ const Airam = {
   models: {
     '4713406': [features.brightness, features.light],
     '4713407': [features.brightness, features.light],
-    'AIRAM-CTR.U': [features.button],
-    'CTR.UBX': [features.button],
+    'AIRAM-CTR.U': [features.switch_sensor],
+    'CTR.UBX': [features.switch_sensor],
   },
 };
 

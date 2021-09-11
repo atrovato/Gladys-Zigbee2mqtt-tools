@@ -10,12 +10,12 @@ const ICasa = {
     'ICZB-DC11': [features.brightness, features.light],
     'ICZB-IW11D': [features.brightness, features.light],
     'ICZB-IW11SW': [features.switch],
-    'ICZB-KPD12': [features.button],
-    'ICZB-KPD14S': [features.button],
-    'ICZB-KPD18S': [features.button],
+    'ICZB-KPD12': [features.switch_sensor],
+    'ICZB-KPD14S': [features.switch_sensor],
+    'ICZB-KPD18S': [features.switch_sensor],
     'ICZB-R11D': [features.brightness, features.light],
     'ICZB-R12D': [features.brightness, features.light],
-    'ICZB-RM11S': [features.button],
+    'ICZB-RM11S': [features.switch_sensor],
   },
 };
 

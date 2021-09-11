@@ -40,7 +40,7 @@ const Innr = {
     'RB 265': [features.brightness, features.light],
     'RB 278 T': [features.brightness, features.color_temperature, features.light],
     'RB 285 C': [features.brightness, features.color, features.color_temperature, features.light],
-    'RC 110': [features.button],
+    'RC 110': [features.switch_sensor],
     'RCL 110': [features.brightness, features.light],
     'RCL 240 T': [features.brightness, features.color_temperature, features.light],
     'RF 261': [features.brightness, features.light],

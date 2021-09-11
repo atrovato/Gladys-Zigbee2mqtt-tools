@@ -6,7 +6,7 @@ const { features } = require('../utils/features');
 const Benexmart = {
   brand: 'Benexmart',
   models: {
-    'ZM-sui1': [features.button],
+    'ZM-sui1': [features.switch_sensor],
   },
 };
 

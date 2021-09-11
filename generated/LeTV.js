@@ -6,7 +6,7 @@ const { features } = require('../utils/features');
 const LeTV = {
   brand: 'LeTV',
   models: {
-    'LeTV.8KEY': [features.button],
+    'LeTV.8KEY': [features.switch_sensor],
   },
 };
 

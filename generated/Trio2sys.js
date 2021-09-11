@@ -6,7 +6,7 @@ const { features } = require('../utils/features');
 const Trio2sys = {
   brand: 'Trio2sys',
   models: {
-    '20020002': [features.button],
+    '20020002': [features.switch_sensor],
   },
 };
 

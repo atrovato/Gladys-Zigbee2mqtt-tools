@@ -6,13 +6,13 @@ const { features } = require('../utils/features');
 const RGBGenie = {
   brand: 'RGB Genie',
   models: {
-    'ZB-3009': [features.button],
-    'ZB-5001': [features.button],
-    'ZB-5004': [features.button],
-    'ZB-5028': [features.button],
-    'ZB-5121': [features.button],
-    'ZB-5122': [features.button],
-    'ZGRC-KEY-013': [features.button],
+    'ZB-3009': [features.switch_sensor],
+    'ZB-5001': [features.switch_sensor],
+    'ZB-5004': [features.switch_sensor],
+    'ZB-5028': [features.switch_sensor],
+    'ZB-5121': [features.switch_sensor],
+    'ZB-5122': [features.switch_sensor],
+    'ZGRC-KEY-013': [features.switch_sensor],
   },
 };
 

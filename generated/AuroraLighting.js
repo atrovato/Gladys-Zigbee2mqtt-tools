@@ -18,9 +18,9 @@ const AuroraLighting = {
     'AU-A1ZBPIA': [features.current, features.energy, features.power, features.switch, features.voltage],
     'AU-A1ZBPIAB': [features.current, features.power, features.switch, features.voltage],
     'AU-A1ZBPIRS': [features.illuminance, features.motion],
-    'AU-A1ZBR1GW': [features.button],
-    'AU-A1ZBR2GW': [features.button],
-    'AU-A1ZBRC': [features.button],
+    'AU-A1ZBR1GW': [features.switch_sensor],
+    'AU-A1ZBR2GW': [features.switch_sensor],
+    'AU-A1ZBRC': [features.switch_sensor],
   },
 };
 

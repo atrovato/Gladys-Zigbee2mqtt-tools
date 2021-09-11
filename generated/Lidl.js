@@ -9,7 +9,7 @@ const Lidl = {
     '14147206L': [features.brightness, features.color_temperature, features.light],
     '14148906L': [features.brightness, features.color, features.color_temperature, features.light],
     '14149505L/14149506L': [features.brightness, features.color, features.color_temperature, features.light],
-    'FB20-002': [features.button],
+    'FB20-002': [features.switch_sensor],
     HG06104A: [features.brightness, features.color, features.color_temperature, features.light],
     HG06106A: [features.brightness, features.color, features.color_temperature, features.light],
     HG06106B: [features.brightness, features.color, features.color_temperature, features.light],
@@ -24,7 +24,7 @@ const Lidl = {
     HG06492A: [features.brightness, features.color_temperature, features.light],
     HG06492B: [features.brightness, features.color_temperature, features.light],
     HG06492C: [features.brightness, features.color_temperature, features.light],
-    HG06668: [features.button],
+    HG06668: [features.switch_sensor],
     'PSBZS A1': [features.switch],
   },
 };

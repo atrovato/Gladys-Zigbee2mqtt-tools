@@ -16,7 +16,7 @@ const Hive = {
     'HV-GSCXZB269': [features.brightness, features.color_temperature, features.light],
     'HV-GSCXZB279_HV-GSCXZB229_HV-GSCXZB229K': [features.brightness, features.color_temperature, features.light],
     'HV-GUCXZB5': [features.brightness, features.color_temperature, features.light],
-    KEYPAD001: [features.button, features.door, features.motion, features.voltage],
+    KEYPAD001: [features.door, features.motion, features.switch_sensor, features.voltage],
     MOT003: [features.motion, features.temperature],
     // SLB2: [],
     SLR1: [features.temperature],

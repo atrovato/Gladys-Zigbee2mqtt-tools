@@ -12,7 +12,7 @@ const Trust = {
     'ZLED-TUNE9': [features.brightness, features.color_temperature, features.light],
     'ZPIR-8000': [features.motion],
     'ZWLD-100': [features.water],
-    'ZYCT-202': [features.button],
+    'ZYCT-202': [features.switch_sensor],
   },
 };
 

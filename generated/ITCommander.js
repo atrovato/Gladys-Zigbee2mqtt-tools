@@ -6,7 +6,7 @@ const { features } = require('../utils/features');
 const ITCommander = {
   brand: 'IT Commander',
   models: {
-    ITCMDR_Click: [features.button, features.voltage],
+    ITCMDR_Click: [features.switch_sensor, features.voltage],
     ITCMDR_Contact: [features.door, features.voltage],
   },
 };

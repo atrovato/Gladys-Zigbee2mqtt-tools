@@ -6,8 +6,8 @@ const { features } = require('../utils/features');
 const Echostar = {
   brand: 'Echostar',
   models: {
-    SAGE206611: [features.button],
-    SAGE206612: [features.button],
+    SAGE206611: [features.switch_sensor],
+    SAGE206612: [features.switch_sensor],
   },
 };
 
