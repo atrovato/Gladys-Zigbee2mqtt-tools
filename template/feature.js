@@ -6,9 +6,16 @@ module.exports = (model, features) => {
     parts.push('// ');
   }
 
-  parts.push('\'');
+  const containsSpecialChar = /[-\/\. ]|^\d/.test(model);
+
+  if (containsSpecialChar) {
+    parts.push('\'');
+  }
   parts.push(model);
-  parts.push('\': [');
+  if (containsSpecialChar) {
+    parts.push('\'');
+  }
+  parts.push(': [');
 
   parts.push(features.map(feature => 'features.' + feature).sort().join(', '));
 

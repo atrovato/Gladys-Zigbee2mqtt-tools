@@ -1,50 +1,32 @@
-const fs = require('fs');
-const path = require('path');
-
 const { devices } = require('zigbee-herdsman-converters');
-const featureMap = require('./utils/featureMap')
-const featureFormat = require('./utils/featureFormat');
-const vendorFormat = require('./utils/vendorFormat');
-const indexFormat = require('./utils/indexFormat');
-const { slugify } = require('./utils/slugify');
+
+const featureExtractor = require('./utils/featureExtractor');
+const deviceFiller = require('./utils/deviceFiller');
+const writeFiles = require('./utils/writeFiles');
 
 const gladysDevices = {};
 
+const unmappedFeatures = new Set();
 devices.forEach(device => {
-  const { whiteLabel, exposes } = device;
+  const { whiteLabel, vendor, model } = device;
+  const features = featureExtractor(device, unmappedFeatures);
 
   if (whiteLabel) {
-    const features = Array.from(new Set(exposes.map(e => e.name || e.type)
-      .map(e => featureMap[e])
-      .filter(e => e !== undefined)));
-
-    whiteLabel.forEach(deviceWhiteLabel => {
+    whiteLabel.sort((a, b) => a.model > b.model ? 1 : -1).forEach(deviceWhiteLabel => {
       const { vendor, model } = deviceWhiteLabel;
-      const slugifiedVendor = slugify(vendor);
-
-      if (!gladysDevices[slugifiedVendor]) {
-        gladysDevices[slugifiedVendor] = { vendor, models: [] };
-      }
-
-      gladysDevices[slugifiedVendor].models.push({ model, features: featureFormat(model, features) });
+      deviceFiller(vendor, model, features, gladysDevices);
     });
+  }
+
+  if (vendor && model) {
+    deviceFiller(vendor, model, features, gladysDevices);
   }
 });
 
-const generatedDir = path.join(__dirname, 'generated');
-fs.rmdirSync(generatedDir, { recursive: true, force: true });
-fs.mkdirSync(generatedDir);
+writeFiles(__dirname, gladysDevices);
 
-const fileNames = [];
-Object.keys(gladysDevices).sort().forEach(fileName => {
-  const { vendor, models } = gladysDevices[fileName];
-
-  console.log('Writing', vendor, 'into', fileName);
-  const details = models.sort((a, b) => a.model > b.model ? 1 : -1)
-    .map(item => item.features)
-    .join('\n')
-  fs.writeFileSync(path.join(generatedDir, fileName + '.js'), vendorFormat(fileName, vendor, details), { flag: 'w' });
-  fileNames.push(fileName);
-});
-
-fs.writeFileSync(path.join(generatedDir, 'index.js'), indexFormat(fileNames), { flag: 'w' });
+const unmapped = Array.from(unmappedFeatures).sort();
+if (unmapped.length > 0) {
+  console.warn('-----------------------------------');
+  console.warn(unmapped.length, 'unmapped features', unmapped);
+}
