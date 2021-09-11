@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/atrovato/Gladys-Zigbee2mqtt-tools#readme",
   "dependencies": {
-    "zigbee-herdsman-converters": "^14.0.243"
+    "zigbee-herdsman-converters": "^14.0.244"
   }
 }
