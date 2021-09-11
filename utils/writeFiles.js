@@ -10,8 +10,8 @@ const writeFiles = (dirname, gladysDevices = {}) => {
   fs.mkdirSync(generatedDir);
 
   const fileNames = [];
-  Object.keys(gladysDevices).sort().forEach(fileName => {
-    const { vendor, models } = gladysDevices[fileName];
+  Object.keys(gladysDevices).sort().forEach(name => {
+    const { vendor, models, fileName } = gladysDevices[name];
 
     // console.log('Writing', vendor, 'into', fileName);
     fs.writeFileSync(path.join(generatedDir, fileName + '.js'), vendorTemplate(fileName, vendor, models), { flag: 'w', mode: 644 });

@@ -1,13 +1,16 @@
 const { slugify } = require('./slugify');
 
 const deviceFiller = (vendor, model, features, mappedDevices = {}) => {
-  const slugifiedVendor = slugify(vendor);
+  const fileName = slugify(vendor);
+  const lowerFileName = fileName.toLowerCase();
 
-  if (!mappedDevices[slugifiedVendor]) {
-    mappedDevices[slugifiedVendor] = { vendor, models: [] };
+  if (!mappedDevices[lowerFileName]) {
+    mappedDevices[lowerFileName] = { fileName, vendor, models: {} };
   }
 
-  mappedDevices[slugifiedVendor].models.push({ model, features });
+  if (!mappedDevices[lowerFileName].models[model]) {
+    mappedDevices[lowerFileName].models[model] = features;
+  }
 };
 
 module.exports = deviceFiller;

@@ -4,10 +4,11 @@ module.exports = (fileName, vendor, models) => {
   const parts = [];
 
   let nbFeatures = 0;
-  const features = models.sort((a, b) => a.model > b.model ? 1 : -1)
-    .map(item => {
-      nbFeatures += item.features.length;
-      return featureTemplate(item.model, item.features);
+  const features = Object.keys(models).sort()
+    .map(model => {
+      const features = models[model];
+      nbFeatures += features.length;
+      return featureTemplate(model, features);
     })
     .join('\n')
 

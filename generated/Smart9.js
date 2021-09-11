@@ -7,8 +7,6 @@ const Smart9 = {
   brand: 'Smart9',
   models: {
     S9TSZGB: [features.button],
-    S9TSZGB: [features.button],
-    S9TSZGB: [features.button],
     S9ZGBRC01: [features.button],
   },
 };
