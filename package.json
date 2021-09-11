@@ -1,0 +1,22 @@
+{
+  "name": "gladys-zigbee2mqtt-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atrovato/Gladys-Zigbee2mqtt-tools.git"
+  },
+  "author": "Alexandre Trovato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atrovato/Gladys-Zigbee2mqtt-tools/issues"
+  },
+  "homepage": "https://github.com/atrovato/Gladys-Zigbee2mqtt-tools#readme",
+  "dependencies": {
+    "zigbee-herdsman-converters": "^14.0.243"
+  }
+}
