@@ -1,6 +1,6 @@
 {
-  "name": "Salon",
-  "external_id": "zigbee2mqtt:Salon",
+  "name": "Chambre Vitaly",
+  "external_id": "zigbee2mqtt:Chambre Vitaly",
   "features": [
     {
       "name": "Battery",
@@ -11,8 +11,8 @@
       "category": "battery",
       "type": "integer",
       "unit": "percent",
-      "external_id": "zigbee2mqtt:Salon:battery:integer:battery",
-      "selector": "zigbee2mqtt-salon-battery-integer-battery"
+      "external_id": "zigbee2mqtt:Chambre Vitaly:battery:integer:battery",
+      "selector": "zigbee2mqtt-chambre-vitaly-battery-integer-battery"
     },
     {
       "name": "Temperature",
@@ -23,8 +23,8 @@
       "category": "temperature-sensor",
       "type": "decimal",
       "unit": "celsius",
-      "external_id": "zigbee2mqtt:Salon:temperature-sensor:decimal:temperature",
-      "selector": "zigbee2mqtt-salon-temperature-sensor-decimal-temperature"
+      "external_id": "zigbee2mqtt:Chambre Vitaly:temperature-sensor:decimal:temperature",
+      "selector": "zigbee2mqtt-chambre-vitaly-temperature-sensor-decimal-temperature"
     },
     {
       "name": "Humidity",
@@ -35,8 +35,8 @@
       "category": "humidity-sensor",
       "type": "decimal",
       "unit": "percent",
-      "external_id": "zigbee2mqtt:Salon:humidity-sensor:decimal:humidity",
-      "selector": "zigbee2mqtt-salon-humidity-sensor-decimal-humidity"
+      "external_id": "zigbee2mqtt:Chambre Vitaly:humidity-sensor:decimal:humidity",
+      "selector": "zigbee2mqtt-chambre-vitaly-humidity-sensor-decimal-humidity"
     },
     {
       "name": "Pressure",
@@ -47,8 +47,8 @@
       "category": "pressure-sensor",
       "type": "decimal",
       "unit": "hPa",
-      "external_id": "zigbee2mqtt:Salon:pressure-sensor:decimal:pressure",
-      "selector": "zigbee2mqtt-salon-pressure-sensor-decimal-pressure"
+      "external_id": "zigbee2mqtt:Chambre Vitaly:pressure-sensor:decimal:pressure",
+      "selector": "zigbee2mqtt-chambre-vitaly-pressure-sensor-decimal-pressure"
     },
     {
       "name": "Voltage",
@@ -59,8 +59,8 @@
       "category": "switch",
       "type": "voltage",
       "unit": "volt",
-      "external_id": "zigbee2mqtt:Salon:switch:voltage:voltage",
-      "selector": "zigbee2mqtt-salon-switch-voltage-voltage"
+      "external_id": "zigbee2mqtt:Chambre Vitaly:switch:voltage:voltage",
+      "selector": "zigbee2mqtt-chambre-vitaly-switch-voltage-voltage"
     }
   ],
   "should_poll": false,

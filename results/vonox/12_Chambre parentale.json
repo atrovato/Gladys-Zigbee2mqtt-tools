@@ -1,6 +1,6 @@
 {
-  "name": "Cave",
-  "external_id": "zigbee2mqtt:Cave",
+  "name": "Chambre parentale",
+  "external_id": "zigbee2mqtt:Chambre parentale",
   "features": [
     {
       "name": "Battery",
@@ -11,8 +11,8 @@
       "category": "battery",
       "type": "integer",
       "unit": "percent",
-      "external_id": "zigbee2mqtt:Cave:battery:integer:battery",
-      "selector": "zigbee2mqtt-cave-battery-integer-battery"
+      "external_id": "zigbee2mqtt:Chambre parentale:battery:integer:battery",
+      "selector": "zigbee2mqtt-chambre-parentale-battery-integer-battery"
     },
     {
       "name": "Temperature",
@@ -23,8 +23,8 @@
       "category": "temperature-sensor",
       "type": "decimal",
       "unit": "celsius",
-      "external_id": "zigbee2mqtt:Cave:temperature-sensor:decimal:temperature",
-      "selector": "zigbee2mqtt-cave-temperature-sensor-decimal-temperature"
+      "external_id": "zigbee2mqtt:Chambre parentale:temperature-sensor:decimal:temperature",
+      "selector": "zigbee2mqtt-chambre-parentale-temperature-sensor-decimal-temperature"
     },
     {
       "name": "Humidity",
@@ -35,8 +35,8 @@
       "category": "humidity-sensor",
       "type": "decimal",
       "unit": "percent",
-      "external_id": "zigbee2mqtt:Cave:humidity-sensor:decimal:humidity",
-      "selector": "zigbee2mqtt-cave-humidity-sensor-decimal-humidity"
+      "external_id": "zigbee2mqtt:Chambre parentale:humidity-sensor:decimal:humidity",
+      "selector": "zigbee2mqtt-chambre-parentale-humidity-sensor-decimal-humidity"
     },
     {
       "name": "Pressure",
@@ -47,8 +47,8 @@
       "category": "pressure-sensor",
       "type": "decimal",
       "unit": "hPa",
-      "external_id": "zigbee2mqtt:Cave:pressure-sensor:decimal:pressure",
-      "selector": "zigbee2mqtt-cave-pressure-sensor-decimal-pressure"
+      "external_id": "zigbee2mqtt:Chambre parentale:pressure-sensor:decimal:pressure",
+      "selector": "zigbee2mqtt-chambre-parentale-pressure-sensor-decimal-pressure"
     },
     {
       "name": "Voltage",
@@ -59,8 +59,8 @@
       "category": "switch",
       "type": "voltage",
       "unit": "volt",
-      "external_id": "zigbee2mqtt:Cave:switch:voltage:voltage",
-      "selector": "zigbee2mqtt-cave-switch-voltage-voltage"
+      "external_id": "zigbee2mqtt:Chambre parentale:switch:voltage:voltage",
+      "selector": "zigbee2mqtt-chambre-parentale-switch-voltage-voltage"
     }
   ],
   "should_poll": false,

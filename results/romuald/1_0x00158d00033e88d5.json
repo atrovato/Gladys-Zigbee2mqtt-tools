@@ -1,6 +1,6 @@
 {
-  "name": "0x00158d000407eb4d",
-  "external_id": "zigbee2mqtt:0x00158d000407eb4d",
+  "name": "0x00158d00033e88d5",
+  "external_id": "zigbee2mqtt:0x00158d00033e88d5",
   "features": [
     {
       "name": "Battery",
@@ -11,8 +11,8 @@
       "category": "battery",
       "type": "integer",
       "unit": "percent",
-      "external_id": "zigbee2mqtt:0x00158d000407eb4d:battery:integer:battery",
-      "selector": "zigbee2mqtt-0x00158d000407eb4d-battery-integer-battery"
+      "external_id": "zigbee2mqtt:0x00158d00033e88d5:battery:integer:battery",
+      "selector": "zigbee2mqtt-0x00158d00033e88d5-battery-integer-battery"
     },
     {
       "name": "Voltage",
@@ -23,8 +23,8 @@
       "category": "switch",
       "type": "voltage",
       "unit": "volt",
-      "external_id": "zigbee2mqtt:0x00158d000407eb4d:switch:voltage:voltage",
-      "selector": "zigbee2mqtt-0x00158d000407eb4d-switch-voltage-voltage"
+      "external_id": "zigbee2mqtt:0x00158d00033e88d5:switch:voltage:voltage",
+      "selector": "zigbee2mqtt-0x00158d00033e88d5-switch-voltage-voltage"
     }
   ],
   "should_poll": false,

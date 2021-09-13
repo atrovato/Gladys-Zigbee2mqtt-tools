@@ -1,6 +1,6 @@
 {
-  "name": "Chambre Sasha",
-  "external_id": "zigbee2mqtt:Chambre Sasha",
+  "name": "Salle de bain",
+  "external_id": "zigbee2mqtt:Salle de bain",
   "features": [
     {
       "name": "Battery",
@@ -11,8 +11,8 @@
       "category": "battery",
       "type": "integer",
       "unit": "percent",
-      "external_id": "zigbee2mqtt:Chambre Sasha:battery:integer:battery",
-      "selector": "zigbee2mqtt-chambre-sasha-battery-integer-battery"
+      "external_id": "zigbee2mqtt:Salle de bain:battery:integer:battery",
+      "selector": "zigbee2mqtt-salle-de-bain-battery-integer-battery"
     },
     {
       "name": "Temperature",
@@ -23,8 +23,8 @@
       "category": "temperature-sensor",
       "type": "decimal",
       "unit": "celsius",
-      "external_id": "zigbee2mqtt:Chambre Sasha:temperature-sensor:decimal:temperature",
-      "selector": "zigbee2mqtt-chambre-sasha-temperature-sensor-decimal-temperature"
+      "external_id": "zigbee2mqtt:Salle de bain:temperature-sensor:decimal:temperature",
+      "selector": "zigbee2mqtt-salle-de-bain-temperature-sensor-decimal-temperature"
     },
     {
       "name": "Humidity",
@@ -35,8 +35,8 @@
       "category": "humidity-sensor",
       "type": "decimal",
       "unit": "percent",
-      "external_id": "zigbee2mqtt:Chambre Sasha:humidity-sensor:decimal:humidity",
-      "selector": "zigbee2mqtt-chambre-sasha-humidity-sensor-decimal-humidity"
+      "external_id": "zigbee2mqtt:Salle de bain:humidity-sensor:decimal:humidity",
+      "selector": "zigbee2mqtt-salle-de-bain-humidity-sensor-decimal-humidity"
     },
     {
       "name": "Pressure",
@@ -47,8 +47,8 @@
       "category": "pressure-sensor",
       "type": "decimal",
       "unit": "hPa",
-      "external_id": "zigbee2mqtt:Chambre Sasha:pressure-sensor:decimal:pressure",
-      "selector": "zigbee2mqtt-chambre-sasha-pressure-sensor-decimal-pressure"
+      "external_id": "zigbee2mqtt:Salle de bain:pressure-sensor:decimal:pressure",
+      "selector": "zigbee2mqtt-salle-de-bain-pressure-sensor-decimal-pressure"
     },
     {
       "name": "Voltage",
@@ -59,8 +59,8 @@
       "category": "switch",
       "type": "voltage",
       "unit": "volt",
-      "external_id": "zigbee2mqtt:Chambre Sasha:switch:voltage:voltage",
-      "selector": "zigbee2mqtt-chambre-sasha-switch-voltage-voltage"
+      "external_id": "zigbee2mqtt:Salle de bain:switch:voltage:voltage",
+      "selector": "zigbee2mqtt-salle-de-bain-switch-voltage-voltage"
     }
   ],
   "should_poll": false,
