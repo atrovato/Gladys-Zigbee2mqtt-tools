@@ -51,7 +51,7 @@
       "selector": "zigbee2mqtt-0x00158d00065a3ade-switch-voltage-voltage"
     },
     {
-      "name": "State_l1",
+      "name": "State l1",
       "read_only": false,
       "has_feedback": true,
       "category": "switch",
@@ -62,7 +62,7 @@
       "selector": "zigbee2mqtt-0x00158d00065a3ade-switch-binary-state-l1"
     },
     {
-      "name": "State_l2",
+      "name": "State l2",
       "read_only": false,
       "has_feedback": true,
       "category": "switch",
