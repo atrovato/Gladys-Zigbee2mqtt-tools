@@ -1,0 +1,42 @@
+{
+  "name": "PlafonnierBuffet",
+  "external_id": "zigbee2mqtt:PlafonnierBuffet",
+  "features": [
+    {
+      "name": "State",
+      "read_only": false,
+      "has_feedback": true,
+      "category": "light",
+      "type": "binary",
+      "min": 0,
+      "max": 1,
+      "external_id": "zigbee2mqtt:PlafonnierBuffet:light:binary:state",
+      "selector": "zigbee2mqtt-plafonnierbuffet-light-binary-state"
+    },
+    {
+      "name": "Brightness",
+      "read_only": false,
+      "has_feedback": true,
+      "min": 0,
+      "max": 254,
+      "category": "light",
+      "type": "brightness",
+      "external_id": "zigbee2mqtt:PlafonnierBuffet:light:brightness:brightness",
+      "selector": "zigbee2mqtt-plafonnierbuffet-light-brightness-brightness"
+    },
+    {
+      "name": "Color temp",
+      "read_only": false,
+      "has_feedback": true,
+      "min": 150,
+      "max": 500,
+      "category": "light",
+      "type": "temperature",
+      "external_id": "zigbee2mqtt:PlafonnierBuffet:light:temperature:color_temp",
+      "selector": "zigbee2mqtt-plafonnierbuffet-light-temperature-color-temp"
+    }
+  ],
+  "should_poll": false,
+  "service_id": "zigbee2mqtt",
+  "supported": true
+}

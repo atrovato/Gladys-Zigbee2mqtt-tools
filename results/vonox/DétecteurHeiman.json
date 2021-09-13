@@ -1,0 +1,32 @@
+{
+  "name": "DétecteurHeiman",
+  "external_id": "zigbee2mqtt:DétecteurHeiman",
+  "features": [
+    {
+      "name": "Smoke",
+      "read_only": true,
+      "has_feedback": false,
+      "category": "smoke-sensor",
+      "type": "binary",
+      "min": 0,
+      "max": 1,
+      "external_id": "zigbee2mqtt:DétecteurHeiman:smoke-sensor:binary:smoke",
+      "selector": "zigbee2mqtt-detecteurheiman-smoke-sensor-binary-smoke"
+    },
+    {
+      "name": "Battery",
+      "read_only": true,
+      "has_feedback": false,
+      "min": 0,
+      "max": 100,
+      "category": "battery",
+      "type": "integer",
+      "unit": "percent",
+      "external_id": "zigbee2mqtt:DétecteurHeiman:battery:integer:battery",
+      "selector": "zigbee2mqtt-detecteurheiman-battery-integer-battery"
+    }
+  ],
+  "should_poll": false,
+  "service_id": "zigbee2mqtt",
+  "supported": true
+}
