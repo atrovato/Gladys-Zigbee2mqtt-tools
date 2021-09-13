@@ -1,0 +1,20 @@
+{
+  "name": "0x804b50fffeb71f7c",
+  "external_id": "zigbee2mqtt:0x804b50fffeb71f7c",
+  "features": [
+    {
+      "name": "State",
+      "read_only": false,
+      "has_feedback": true,
+      "category": "switch",
+      "type": "binary",
+      "min": 0,
+      "max": 1,
+      "external_id": "zigbee2mqtt:0x804b50fffeb71f7c:switch:binary:state",
+      "selector": "zigbee2mqtt-0x804b50fffeb71f7c-switch-binary-state"
+    }
+  ],
+  "should_poll": false,
+  "service_id": "zigbee2mqtt",
+  "supported": true
+}

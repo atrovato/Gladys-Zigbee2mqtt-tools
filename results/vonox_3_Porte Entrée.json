@@ -1,0 +1,56 @@
+{
+  "name": "Porte Entrée",
+  "external_id": "zigbee2mqtt:Porte Entrée",
+  "features": [
+    {
+      "name": "Battery",
+      "read_only": true,
+      "has_feedback": false,
+      "min": 0,
+      "max": 100,
+      "category": "battery",
+      "type": "integer",
+      "unit": "percent",
+      "external_id": "zigbee2mqtt:Porte Entrée:battery:integer:battery",
+      "selector": "zigbee2mqtt-porte-entree-battery-integer-battery"
+    },
+    {
+      "name": "Contact",
+      "read_only": true,
+      "has_feedback": false,
+      "category": "opening-sensor",
+      "type": "binary",
+      "min": 0,
+      "max": 1,
+      "external_id": "zigbee2mqtt:Porte Entrée:opening-sensor:binary:contact",
+      "selector": "zigbee2mqtt-porte-entree-opening-sensor-binary-contact"
+    },
+    {
+      "name": "Temperature",
+      "read_only": true,
+      "has_feedback": false,
+      "min": -100,
+      "max": 150,
+      "category": "temperature-sensor",
+      "type": "decimal",
+      "unit": "celsius",
+      "external_id": "zigbee2mqtt:Porte Entrée:temperature-sensor:decimal:temperature",
+      "selector": "zigbee2mqtt-porte-entree-temperature-sensor-decimal-temperature"
+    },
+    {
+      "name": "Voltage",
+      "read_only": true,
+      "has_feedback": false,
+      "min": 0,
+      "max": 10000,
+      "category": "switch",
+      "type": "voltage",
+      "unit": "volt",
+      "external_id": "zigbee2mqtt:Porte Entrée:switch:voltage:voltage",
+      "selector": "zigbee2mqtt-porte-entree-switch-voltage-voltage"
+    }
+  ],
+  "should_poll": false,
+  "service_id": "zigbee2mqtt",
+  "supported": true
+}

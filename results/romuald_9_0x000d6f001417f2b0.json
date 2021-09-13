@@ -1,0 +1,21 @@
+{
+  "name": "0x000d6f001417f2b0",
+  "external_id": "zigbee2mqtt:0x000d6f001417f2b0",
+  "features": [
+    {
+      "name": "Battery",
+      "read_only": true,
+      "has_feedback": false,
+      "min": 0,
+      "max": 100,
+      "category": "battery",
+      "type": "integer",
+      "unit": "percent",
+      "external_id": "zigbee2mqtt:0x000d6f001417f2b0:battery:integer:battery",
+      "selector": "zigbee2mqtt-0x000d6f001417f2b0-battery-integer-battery"
+    }
+  ],
+  "should_poll": false,
+  "service_id": "zigbee2mqtt",
+  "supported": false
+}

@@ -1,0 +1,32 @@
+{
+  "name": "SonoffMotionSensor",
+  "external_id": "zigbee2mqtt:SonoffMotionSensor",
+  "features": [
+    {
+      "name": "Occupancy",
+      "read_only": true,
+      "has_feedback": false,
+      "category": "presence-sensor",
+      "type": "binary",
+      "min": 0,
+      "max": 1,
+      "external_id": "zigbee2mqtt:SonoffMotionSensor:presence-sensor:binary:occupancy",
+      "selector": "zigbee2mqtt-sonoffmotionsensor-presence-sensor-binary-occupancy"
+    },
+    {
+      "name": "Battery",
+      "read_only": true,
+      "has_feedback": false,
+      "min": 0,
+      "max": 100,
+      "category": "battery",
+      "type": "integer",
+      "unit": "percent",
+      "external_id": "zigbee2mqtt:SonoffMotionSensor:battery:integer:battery",
+      "selector": "zigbee2mqtt-sonoffmotionsensor-battery-integer-battery"
+    }
+  ],
+  "should_poll": false,
+  "service_id": "zigbee2mqtt",
+  "supported": true
+}

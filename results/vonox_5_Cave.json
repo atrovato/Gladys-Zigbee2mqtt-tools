@@ -1,0 +1,69 @@
+{
+  "name": "Cave",
+  "external_id": "zigbee2mqtt:Cave",
+  "features": [
+    {
+      "name": "Battery",
+      "read_only": true,
+      "has_feedback": false,
+      "min": 0,
+      "max": 100,
+      "category": "battery",
+      "type": "integer",
+      "unit": "percent",
+      "external_id": "zigbee2mqtt:Cave:battery:integer:battery",
+      "selector": "zigbee2mqtt-cave-battery-integer-battery"
+    },
+    {
+      "name": "Temperature",
+      "read_only": true,
+      "has_feedback": false,
+      "min": -100,
+      "max": 150,
+      "category": "temperature-sensor",
+      "type": "decimal",
+      "unit": "celsius",
+      "external_id": "zigbee2mqtt:Cave:temperature-sensor:decimal:temperature",
+      "selector": "zigbee2mqtt-cave-temperature-sensor-decimal-temperature"
+    },
+    {
+      "name": "Humidity",
+      "read_only": true,
+      "has_feedback": false,
+      "min": 0,
+      "max": 100,
+      "category": "humidity-sensor",
+      "type": "decimal",
+      "unit": "percent",
+      "external_id": "zigbee2mqtt:Cave:humidity-sensor:decimal:humidity",
+      "selector": "zigbee2mqtt-cave-humidity-sensor-decimal-humidity"
+    },
+    {
+      "name": "Pressure",
+      "read_only": true,
+      "has_feedback": false,
+      "min": 0,
+      "max": 10000,
+      "category": "pressure-sensor",
+      "type": "decimal",
+      "unit": "hPa",
+      "external_id": "zigbee2mqtt:Cave:pressure-sensor:decimal:pressure",
+      "selector": "zigbee2mqtt-cave-pressure-sensor-decimal-pressure"
+    },
+    {
+      "name": "Voltage",
+      "read_only": true,
+      "has_feedback": false,
+      "min": 0,
+      "max": 10000,
+      "category": "switch",
+      "type": "voltage",
+      "unit": "volt",
+      "external_id": "zigbee2mqtt:Cave:switch:voltage:voltage",
+      "selector": "zigbee2mqtt-cave-switch-voltage-voltage"
+    }
+  ],
+  "should_poll": false,
+  "service_id": "zigbee2mqtt",
+  "supported": true
+}
