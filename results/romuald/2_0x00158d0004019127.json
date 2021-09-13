@@ -25,6 +25,17 @@
       "unit": "millivolt",
       "external_id": "zigbee2mqtt:0x00158d0004019127:switch:voltage:voltage",
       "selector": "zigbee2mqtt-0x00158d0004019127-switch-voltage-voltage"
+    },
+    {
+      "name": "Action",
+      "read_only": true,
+      "has_feedback": false,
+      "min": 0,
+      "max": 6,
+      "category": "button",
+      "type": "click",
+      "external_id": "zigbee2mqtt:0x00158d0004019127:button:click:action",
+      "selector": "zigbee2mqtt-0x00158d0004019127-button-click-action"
     }
   ],
   "should_poll": false,

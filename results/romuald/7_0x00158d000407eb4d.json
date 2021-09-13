@@ -15,6 +15,17 @@
       "selector": "zigbee2mqtt-0x00158d000407eb4d-battery-integer-battery"
     },
     {
+      "name": "Action",
+      "read_only": true,
+      "has_feedback": false,
+      "min": 0,
+      "max": 9,
+      "category": "button",
+      "type": "click",
+      "external_id": "zigbee2mqtt:0x00158d000407eb4d:button:click:action",
+      "selector": "zigbee2mqtt-0x00158d000407eb4d-button-click-action"
+    },
+    {
       "name": "Voltage",
       "read_only": true,
       "has_feedback": false,
