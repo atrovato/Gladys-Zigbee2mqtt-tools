@@ -1,0 +1,33 @@
+{
+  "name": "0x00158d000407eb4d",
+  "external_id": "zigbee2mqtt:0x00158d000407eb4d",
+  "features": [
+    {
+      "name": "Battery",
+      "read_only": true,
+      "has_feedback": false,
+      "min": 0,
+      "max": 100,
+      "category": "battery",
+      "type": "integer",
+      "unit": "percent",
+      "external_id": "zigbee2mqtt:0x00158d000407eb4d:battery:integer:battery",
+      "selector": "zigbee2mqtt-0x00158d000407eb4d-battery-integer-battery"
+    },
+    {
+      "name": "Voltage",
+      "read_only": true,
+      "has_feedback": false,
+      "min": 0,
+      "max": 10000,
+      "category": "switch",
+      "type": "voltage",
+      "unit": "volt",
+      "external_id": "zigbee2mqtt:0x00158d000407eb4d:switch:voltage:voltage",
+      "selector": "zigbee2mqtt-0x00158d000407eb4d-switch-voltage-voltage"
+    }
+  ],
+  "should_poll": false,
+  "service_id": "zigbee2mqtt",
+  "supported": true
+}

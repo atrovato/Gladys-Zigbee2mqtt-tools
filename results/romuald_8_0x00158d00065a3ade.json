@@ -1,0 +1,66 @@
+{
+  "name": "0x00158d00065a3ade",
+  "external_id": "zigbee2mqtt:0x00158d00065a3ade",
+  "features": [
+    {
+      "name": "Temperature",
+      "read_only": true,
+      "has_feedback": false,
+      "min": -100,
+      "max": 150,
+      "category": "temperature-sensor",
+      "type": "decimal",
+      "unit": "celsius",
+      "external_id": "zigbee2mqtt:0x00158d00065a3ade:temperature-sensor:decimal:temperature",
+      "selector": "zigbee2mqtt-0x00158d00065a3ade-temperature-sensor-decimal-temperature"
+    },
+    {
+      "name": "Voltage",
+      "read_only": true,
+      "has_feedback": false,
+      "min": 0,
+      "max": 10000,
+      "category": "switch",
+      "type": "voltage",
+      "unit": "volt",
+      "external_id": "zigbee2mqtt:0x00158d00065a3ade:switch:voltage:voltage",
+      "selector": "zigbee2mqtt-0x00158d00065a3ade-switch-voltage-voltage"
+    },
+    {
+      "name": "State_l1",
+      "read_only": false,
+      "has_feedback": true,
+      "category": "switch",
+      "type": "binary",
+      "min": 0,
+      "max": 1,
+      "external_id": "zigbee2mqtt:0x00158d00065a3ade:switch:binary:state_l1",
+      "selector": "zigbee2mqtt-0x00158d00065a3ade-switch-binary-state-l1"
+    },
+    {
+      "name": "State_l2",
+      "read_only": false,
+      "has_feedback": true,
+      "category": "switch",
+      "type": "binary",
+      "min": 0,
+      "max": 1,
+      "external_id": "zigbee2mqtt:0x00158d00065a3ade:switch:binary:state_l2",
+      "selector": "zigbee2mqtt-0x00158d00065a3ade-switch-binary-state-l2"
+    },
+    {
+      "name": "Interlock",
+      "read_only": false,
+      "has_feedback": true,
+      "category": "switch",
+      "type": "binary",
+      "min": 0,
+      "max": 1,
+      "external_id": "zigbee2mqtt:0x00158d00065a3ade:switch:binary:interlock",
+      "selector": "zigbee2mqtt-0x00158d00065a3ade-switch-binary-interlock"
+    }
+  ],
+  "should_poll": false,
+  "service_id": "zigbee2mqtt",
+  "supported": true
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Chambre Vitaly",
+  "external_id": "zigbee2mqtt:Chambre Vitaly",
+  "features": [
+    {
+      "name": "Battery",
+      "read_only": true,
+      "has_feedback": false,
+      "min": 0,
+      "max": 100,
+      "category": "battery",
+      "type": "integer",
+      "unit": "percent",
+      "external_id": "zigbee2mqtt:Chambre Vitaly:battery:integer:battery",
+      "selector": "zigbee2mqtt-chambre-vitaly-battery-integer-battery"
+    },
+    {
+      "name": "Temperature",
+      "read_only": true,
+      "has_feedback": false,
+      "min": -100,
+      "max": 150,
+      "category": "temperature-sensor",
+      "type": "decimal",
+      "unit": "celsius",
+      "external_id": "zigbee2mqtt:Chambre Vitaly:temperature-sensor:decimal:temperature",
+      "selector": "zigbee2mqtt-chambre-vitaly-temperature-sensor-decimal-temperature"
+    },
+    {
+      "name": "Humidity",
+      "read_only": true,
+      "has_feedback": false,
+      "min": 0,
+      "max": 100,
+      "category": "humidity-sensor",
+      "type": "decimal",
+      "unit": "percent",
+      "external_id": "zigbee2mqtt:Chambre Vitaly:humidity-sensor:decimal:humidity",
+      "selector": "zigbee2mqtt-chambre-vitaly-humidity-sensor-decimal-humidity"
+    },
+    {
+      "name": "Pressure",
+      "read_only": true,
+      "has_feedback": false,
+      "min": 0,
+      "max": 10000,
+      "category": "pressure-sensor",
+      "type": "decimal",
+      "unit": "hPa",
+      "external_id": "zigbee2mqtt:Chambre Vitaly:pressure-sensor:decimal:pressure",
+      "selector": "zigbee2mqtt-chambre-vitaly-pressure-sensor-decimal-pressure"
+    },
+    {
+      "name": "Voltage",
+      "read_only": true,
+      "has_feedback": false,
+      "min": 0,
+      "max": 10000,
+      "category": "switch",
+      "type": "voltage",
+      "unit": "volt",
+      "external_id": "zigbee2mqtt:Chambre Vitaly:switch:voltage:voltage",
+      "selector": "zigbee2mqtt-chambre-vitaly-switch-voltage-voltage"
+    }
+  ],
+  "should_poll": false,
+  "service_id": "zigbee2mqtt",
+  "supported": true
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Salon",
+  "external_id": "zigbee2mqtt:Salon",
+  "features": [
+    {
+      "name": "Battery",
+      "read_only": true,
+      "has_feedback": false,
+      "min": 0,
+      "max": 100,
+      "category": "battery",
+      "type": "integer",
+      "unit": "percent",
+      "external_id": "zigbee2mqtt:Salon:battery:integer:battery",
+      "selector": "zigbee2mqtt-salon-battery-integer-battery"
+    },
+    {
+      "name": "Temperature",
+      "read_only": true,
+      "has_feedback": false,
+      "min": -100,
+      "max": 150,
+      "category": "temperature-sensor",
+      "type": "decimal",
+      "unit": "celsius",
+      "external_id": "zigbee2mqtt:Salon:temperature-sensor:decimal:temperature",
+      "selector": "zigbee2mqtt-salon-temperature-sensor-decimal-temperature"
+    },
+    {
+      "name": "Humidity",
+      "read_only": true,
+      "has_feedback": false,
+      "min": 0,
+      "max": 100,
+      "category": "humidity-sensor",
+      "type": "decimal",
+      "unit": "percent",
+      "external_id": "zigbee2mqtt:Salon:humidity-sensor:decimal:humidity",
+      "selector": "zigbee2mqtt-salon-humidity-sensor-decimal-humidity"
+    },
+    {
+      "name": "Pressure",
+      "read_only": true,
+      "has_feedback": false,
+      "min": 0,
+      "max": 10000,
+      "category": "pressure-sensor",
+      "type": "decimal",
+      "unit": "hPa",
+      "external_id": "zigbee2mqtt:Salon:pressure-sensor:decimal:pressure",
+      "selector": "zigbee2mqtt-salon-pressure-sensor-decimal-pressure"
+    },
+    {
+      "name": "Voltage",
+      "read_only": true,
+      "has_feedback": false,
+      "min": 0,
+      "max": 10000,
+      "category": "switch",
+      "type": "voltage",
+      "unit": "volt",
+      "external_id": "zigbee2mqtt:Salon:switch:voltage:voltage",
+      "selector": "zigbee2mqtt-salon-switch-voltage-voltage"
+    }
+  ],
+  "should_poll": false,
+  "service_id": "zigbee2mqtt",
+  "supported": true
+}

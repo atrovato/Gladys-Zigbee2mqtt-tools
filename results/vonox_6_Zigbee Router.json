@@ -1,0 +1,8 @@
+{
+  "name": "Zigbee Router",
+  "external_id": "zigbee2mqtt:Zigbee Router",
+  "features": [],
+  "should_poll": false,
+  "service_id": "zigbee2mqtt",
+  "supported": false
+}
