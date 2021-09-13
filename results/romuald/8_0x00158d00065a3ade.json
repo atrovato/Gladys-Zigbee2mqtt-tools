@@ -3,6 +3,30 @@
   "external_id": "zigbee2mqtt:0x00158d00065a3ade",
   "features": [
     {
+      "name": "Power",
+      "read_only": true,
+      "has_feedback": false,
+      "min": 0,
+      "max": 10000,
+      "category": "switch",
+      "type": "power",
+      "unit": "watt",
+      "external_id": "zigbee2mqtt:0x00158d00065a3ade:switch:power:power",
+      "selector": "zigbee2mqtt-0x00158d00065a3ade-switch-power-power"
+    },
+    {
+      "name": "Energy",
+      "read_only": true,
+      "has_feedback": false,
+      "min": 0,
+      "max": 10000,
+      "category": "switch",
+      "type": "energy",
+      "unit": "kilowatt-hour",
+      "external_id": "zigbee2mqtt:0x00158d00065a3ade:switch:energy:energy",
+      "selector": "zigbee2mqtt-0x00158d00065a3ade-switch-energy-energy"
+    },
+    {
       "name": "Temperature",
       "read_only": true,
       "has_feedback": false,
