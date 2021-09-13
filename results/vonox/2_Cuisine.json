@@ -58,7 +58,7 @@
       "max": 10000,
       "category": "switch",
       "type": "voltage",
-      "unit": "volt",
+      "unit": "millivolt",
       "external_id": "zigbee2mqtt:Cuisine:switch:voltage:voltage",
       "selector": "zigbee2mqtt-cuisine-switch-voltage-voltage"
     }

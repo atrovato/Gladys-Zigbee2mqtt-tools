@@ -22,7 +22,7 @@
       "max": 10000,
       "category": "switch",
       "type": "voltage",
-      "unit": "volt",
+      "unit": "millivolt",
       "external_id": "zigbee2mqtt:0x00158d000407eb4d:switch:voltage:voltage",
       "selector": "zigbee2mqtt-0x00158d000407eb4d-switch-voltage-voltage"
     }

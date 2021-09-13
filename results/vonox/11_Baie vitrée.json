@@ -45,7 +45,7 @@
       "max": 10000,
       "category": "switch",
       "type": "voltage",
-      "unit": "volt",
+      "unit": "millivolt",
       "external_id": "zigbee2mqtt:Baie vitrée:switch:voltage:voltage",
       "selector": "zigbee2mqtt-baie-vitree-switch-voltage-voltage"
     }
