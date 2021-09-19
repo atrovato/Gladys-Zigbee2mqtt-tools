@@ -1,5 +1,6 @@
 {
   "name": "Salle de bain",
+  "model": "WSDCGQ11LM",
   "external_id": "zigbee2mqtt:Salle de bain",
   "features": [
     {

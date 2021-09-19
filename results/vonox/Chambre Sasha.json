@@ -1,5 +1,6 @@
 {
   "name": "Chambre Sasha",
+  "model": "WSDCGQ11LM",
   "external_id": "zigbee2mqtt:Chambre Sasha",
   "features": [
     {

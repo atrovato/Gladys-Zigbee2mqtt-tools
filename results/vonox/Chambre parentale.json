@@ -1,5 +1,6 @@
 {
   "name": "Chambre parentale",
+  "model": "WSDCGQ11LM",
   "external_id": "zigbee2mqtt:Chambre parentale",
   "features": [
     {

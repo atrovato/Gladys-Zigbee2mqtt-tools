@@ -1,5 +1,6 @@
 {
   "name": "Chambre Vitaly",
+  "model": "WSDCGQ11LM",
   "external_id": "zigbee2mqtt:Chambre Vitaly",
   "features": [
     {

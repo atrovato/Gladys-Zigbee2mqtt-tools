@@ -1,5 +1,6 @@
 {
   "name": "Cuisine",
+  "model": "WSDCGQ11LM",
   "external_id": "zigbee2mqtt:Cuisine",
   "features": [
     {

@@ -1,5 +1,6 @@
 {
   "name": "Baie vitrée",
+  "model": "MCCGQ11LM",
   "external_id": "zigbee2mqtt:Baie vitrée",
   "features": [
     {

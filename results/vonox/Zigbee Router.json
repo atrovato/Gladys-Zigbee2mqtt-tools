@@ -1,5 +1,6 @@
 {
   "name": "Zigbee Router",
+  "model": "CC2530.ROUTER",
   "external_id": "zigbee2mqtt:Zigbee Router",
   "features": [],
   "should_poll": false,

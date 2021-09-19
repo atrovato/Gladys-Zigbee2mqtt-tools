@@ -1,5 +1,6 @@
 {
   "name": "Cave",
+  "model": "WSDCGQ11LM",
   "external_id": "zigbee2mqtt:Cave",
   "features": [
     {

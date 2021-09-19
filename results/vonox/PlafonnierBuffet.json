@@ -1,5 +1,6 @@
 {
   "name": "PlafonnierBuffet",
+  "model": "8718696548738",
   "external_id": "zigbee2mqtt:PlafonnierBuffet",
   "features": [
     {

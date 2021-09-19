@@ -1,5 +1,6 @@
 {
   "name": "DétecteurHeiman",
+  "model": "HS3SA",
   "external_id": "zigbee2mqtt:DétecteurHeiman",
   "features": [
     {

@@ -1,5 +1,6 @@
 {
   "name": "Porte Entrée",
+  "model": "MCCGQ11LM",
   "external_id": "zigbee2mqtt:Porte Entrée",
   "features": [
     {

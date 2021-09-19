@@ -1,5 +1,6 @@
 {
   "name": "Terrasse",
+  "model": "WSDCGQ11LM",
   "external_id": "zigbee2mqtt:Terrasse",
   "features": [
     {
